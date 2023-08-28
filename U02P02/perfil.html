@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>campus</title>
+</head>
+
+<body>
+    <h1>Informacion Personal</h1>
+    <form action="">
+        <input type="text" name="estudiante" id="estudiante" placeholder="ESTUDIANTE" value="ESTUDIANTE" readonly> <br>
+        <input type="text" name="nombre" placeholder="Nombre completo"> <br>
+        <input type="email" name="email" id="email" placeholder="email"> <br>
+        <input type="number" name="edad" id="edad" placeholder="edad"> <br>
+        <label for="nacionalidad">seleccione su nacionalidad</label>
+        <select name="nacionalidad" id="nacionalidad"
+            id="seleccion"><!--select elegir dentro de una lista las opciones-->
+            <option value="Argentina" selected>Argentina</option>
+            <option value="Brasil">Brasil</option>
+            <option value="Uruguay">Uruguay</option>
+            <option value="Venezuela">Venezuela</option>
+        </select> <br>
+        <label for="condicionlaboral">seleccione su nacionalidad</label>
+        <select name="condicionlaboral" id="condicionlaboral"
+            id="condicionlaboral"><!--select elegir dentro de una lista las opciones-->
+            <option value="En busqueda" selected>En busqueda</option>
+            <option value="part time">Part time</option>
+            <option value="full time">Dull time</option>
+            <option value="desempleado">Desempleado</option>
+        </select>
+        <hr>
+        <section>
+            <label for="musica">Describa cual es su gusto musical</label>
+            <input type="text" name="musica" id="musica" placeholder="gusto musical">
+            <label for="comfav">Seleccione Su Comida Favorita</label>
+            <select name="comfav" id="comfav">
+                <option value="Milanesa">Milanesa</option>
+                <option value="Hamburguesa">Hamburgesa</option>
+                <option value="Asado">Asado</option>
+                <option value="Pizza">Pizza</option>
+            </select>
+        </section>
+        <input type="submit" name="enviar" id="" placeholder="enviar">
+        <label for="checkbox"> recordar datos</label>
+        <input type="checkbox" name="checkbox">
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica tres unidad 1</title>
+</head>
+<body>
+    <h1>Bienvenido al club </h1>
+    <p>
+        1- ingrese su nombre y Apellido. <br>
+        2- ingrese su DNI. <br>
+        3- ingrese su correo electronico. <br>
+        4- ingrese  una contraseña 
+    </p>
+    <form target="_blank" class="formulario" >
+        <label for="nombre ">Nombre y apellido</label>
+        <input placeholder="Nombre" required type="text" maxlength="60" name="nombre"    
+            id="nombre"> <br><!--minleght minimo de caracteres y maxleght maximo de caracteres()-->
+        <label for="dni">DNI</label>
+        <input type="tel" name="dni" id="dni" minlength="8" placeholder="DNI"> <br>
+        <label for="correo">Correo Electronico</label>
+        <input type="email" name="correo" id="correo" placeholder="correo"> <br>
+        <label for="contra">Contraseña</label>
+        <input type="password" name="contra" id="contra" placeholder="contraseña">
+        <input type="submit" size="60" name="boton" value="enviar"> <br>
+        <label for="checkbox" > recordar datos</label>
+        <input type="checkbox" name="checkbox">
+    </form> <BR></BR>
+</body>
+</html>
