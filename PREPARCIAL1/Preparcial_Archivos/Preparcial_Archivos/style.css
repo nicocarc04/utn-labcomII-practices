@@ -15,9 +15,9 @@ a {
 
 header {
     background-color: rgb(240, 240, 240);
-    display: flex ;
+    display: flex;
     justify-content: space-between;
-    align-items: center ;
+    align-items: center;
 }
 
 header .logo {
@@ -47,11 +47,11 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-    border-bottom: 2px solid #6e6e6e;
+    border-bottom: 3px solid #6e6e6e;
 }
 
 header nav ul li a.active {
-    border-bottom: 2px solid #333333;
+    border-bottom: 3px solid #333333;
 }
 
 header .profile a {
@@ -110,7 +110,7 @@ section.main-image>div {
 }
 
 .careers-container {
-    width: 80%;
+    width: 100%;
     padding: 30px 0px;
 }
 

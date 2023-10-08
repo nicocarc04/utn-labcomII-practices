@@ -1,0 +1,48 @@
+<!DOCTYPE html> <!-- Declaración del tipo de documento -->
+<html lang="en"> <!-- Etiqueta de inicio de la página web, con especificación de idioma -->
+
+<head>
+    <meta charset="UTF-8"> <!-- Configuración de la codificación de caracteres a UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Configuración de la vista en dispositivos móviles -->
+    <title>Ejercicio numero 1 de uso del flexbox</title> <!-- Título de la página web -->
+    <style>
+        ul {
+            display: flex; /* Configuración de la lista como un contenedor flexible */
+            flex-direction: column; /* Dirección de flexión vertical */
+            width: max-content; /* Ancho máximo del contenido */
+            justify-content: space-between; /* Distribución uniforme del espacio entre elementos */
+            gap: 2px; /* Espacio entre elementos */
+            padding: 0; /* Eliminación de relleno en la lista */
+            margin: 0; /*Eliminación de márgenes en la lista -->*/
+            list-style: none; /* Eliminación de viñetas de la lista */
+        }
+
+        ul li {
+            background: rgba(123, 198, 199, 0.8); /* Color de fondo de los elementos de lista*/
+            flex-grow: 1; /* Crecimiento flexible de los elementos de lista */
+        }
+
+        ul a,
+        ul a:link {
+            font-family: sans-serif; /*Fuente de texto */
+            text-decoration: none; /*Eliminación de decoración de enlaces */
+            color: black; /* Color del texto */
+            padding: 8px; /**Espaciado interior de los elementos de anclaje*/
+            display: block; /*Configuración de los enlaces como elementos de bloque */
+            width: 100%; /* Ancho del 100% para llenar todo el ancho del elemento de lista */
+        }
+    </style>
+</head>
+
+<body>
+    <ul> <!-- Inicio de la lista no ordenada -->
+        <li><a href="#">Home</a></li> <!-- Elemento de lista con un enlace "Home" -->
+        <li><a href="#">Servicios</a></li> <!-- Elemento de lista con un enlace "Servicios" -->
+        <li><a href="#">Opciones</a></li> <!-- Elemento de lista con un enlace "Opciones" -->
+        <li><a href="#">Planes</a></li> <!-- Elemento de lista con un enlace "Planes" -->
+        <li><a href="#">Contacto</a></li> <!-- Elemento de lista con un enlace "Contacto" -->
+    </ul> <!-- Fin de la lista no ordenada -->
+</body>
+
+</html>
+</head>

@@ -58,6 +58,7 @@ nav {
 .nav-item-login{
     background-color:darkgrey;
     font-weight: bold;
+    border-radius: 2px;
 }
 .navbar{
     background-color: darkcyan;

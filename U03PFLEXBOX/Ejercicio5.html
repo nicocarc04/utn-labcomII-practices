@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: flex;
+            gap: 2px;
+            min-height: 100vh;
+            font-family: sans-serif;
+        }
+
+        .main .sidebar,
+        .main .contenido {
+            height: 100vh;
+            padding: 12px 24px;
+        }
+
+        .main .sidebar {
+            background: rgb(133, 215, 239);
+            flex: 1;
+        }
+
+        .main .contenido {
+            background-color: rgb(193,219,210);
+            flex: 4;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">contenido lateral</div>
+        <div class="content">Esto seria el contenido principal</div>
+    </div>
+</body>
+
+</html>
